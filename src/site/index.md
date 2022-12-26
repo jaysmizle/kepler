@@ -1,9 +1,8 @@
 ---
 title: Systemantics
-subtitle: A project scaffold for getting building with Eleventy quickly.<br /> Made by <a href="https://twitter.com/philhawksworth">Phil</a> for <a href="https://twitter.com/philhawksworth">Phil</a>, but perhaps you might also find it useful.
+subtitle: A project scaffold for getting building with Eleventy quickly.
 layout: layouts/base.njk
 ---
-
 
 ## This site is a starting point
 
@@ -16,8 +15,6 @@ From this point we should already have:
 - JS [search index](/search.json) generator
 - [Netlify Dev](https://www.netlify.com/products/dev) for testing [Netlify redirects](https://netlify.com/docs/redirects/)
 - Serverless (FaaS) development pipeline with [Netlify Dev](https://www.netlify.com/products/dev) and [Netlify Functions](https://www.netlify.com/products/functions)
-
-
 
 ## Post pages
 
@@ -43,7 +40,6 @@ These links were sourced from [hawksworx.com](https://www.hawksworx.com/feed.jso
   </li>
 {%- endfor -%}
 </ul>
-
 
 ## Prerequisite
 
@@ -84,7 +80,3 @@ Netlify's Redirects API can provide friendlier URLs as proxies to these URLs.
 
 - [/api/hello](/api/hello)
 - [/api/fetch-joke](/api/fetch-joke)
-
-
-
-

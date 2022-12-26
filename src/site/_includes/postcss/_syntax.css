@@ -43,8 +43,6 @@
      background-color: mix($text-color,$accent-color, 80%);
  }
 
-
-
  .token.comment,
  .token.prolog,
  .token.doctype,
@@ -86,11 +84,8 @@
      color: #00a4db;
  }
 
-
-
  .token.tag,
  .token.selector,
  .language-autohotkey .token.keyword {
      color: #00009f;
  }
-
