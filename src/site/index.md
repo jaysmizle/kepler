@@ -1,18 +1,18 @@
 ---
 title: Systemantics
-subtitle: Thoughts on design as a practice, building enablement services, and people management.
+subtitle: People-centered design management and enablement systems.
 layout: layouts/base.njk
 ---
 
-## This site is a starting point
+## Jay Smith
 
 I’m a system-thinking design leader collaborating with other cool humans at the nation’s [largest consumer cooperative](https://www.rei.com/). I really&mdash;really&mdash;love helping teams create, scale, and maintain accessible, cohesive experiences.
 
-I’m currently working and living in the Ballard neighborhood of Seattle.
+Currently working and living in the Ballard neighborhood of Seattle.
 
-## Post pages
+## Writing
 
-The pages found in in the posts
+Reflections on past experiences and forward-looking ideas.
 
 <ul class="listing">
 {%- for page in collections.post -%}
@@ -23,54 +23,6 @@ The pages found in in the posts
 {%- endfor -%}
 </ul>
 
-## Links from an external data source
+## Contact
 
-These links were sourced from [hawksworx.com](https://www.hawksworx.com/feed.json) at build time.
-
-<ul class="listing">
-{%- for item in hawksworx.entries.slice(0,5) -%}
-  <li>
-    <a href="{{ item.link }}">{{ item.title }}</a>
-  </li>
-{%- endfor -%}
-</ul>
-
-## Prerequisite
-
-- [Node and NPM](https://nodejs.org/)
-
-## Running locally
-
-```bash
-# install the dependencies
-npm install
-
-# External data sources can be stashed locally
-npm run seed
-
-# It will then be available locally for building with
-npm run start
-```
-
-## Add some Netlify helpers
-Netlify Dev adds the ability to use Netlify redirects, proxies, and serverless functions.
-
-```bash
-# install the Netlify CLI in order to get Netlify Dev
-npm install -g netlify-cli
-
-# run a local server with some added Netlify sugar in front of Eleventy
-netlify dev
-```
-
-A serverless functions pipeline is included via Netlify Dev. By running `netlify dev` you'll be able to execute any of your serverless functions directly like this:
-
-- [/.netlify/functions/hello](/.netlify/functions/hello)
-- [/.netlify/functions/fetch-joke](/.netlify/functions/fetch-joke)
-
-### Redirects and proxies
-
-Netlify's Redirects API can provide friendlier URLs as proxies to these URLs.
-
-- [/api/hello](/api/hello)
-- [/api/fetch-joke](/api/fetch-joke)
+The best way to get in touch is an [email](mailto:jaysmizle@gmail.com). Feel free to also connect with me on [LinkedIn](https://www.linkedin.com/in/jaysmizle/), [ADP List](https://adplist.org/mentors/jay-smith), or [GitHub](https://github.com/jaysmizle).
