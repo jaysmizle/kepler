@@ -4,7 +4,7 @@ subtitle: People-centered design management and enablement systems.
 layout: layouts/base.njk
 ---
 
-## Jay Smith
+## WIP heading
 
 I’m a system-thinking design leader collaborating with other cool humans at the nation’s [largest consumer cooperative](https://www.rei.com/). I really&mdash;really&mdash;love helping teams create, scale, and maintain accessible, cohesive experiences.
 
