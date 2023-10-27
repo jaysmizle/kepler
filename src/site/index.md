@@ -1,6 +1,6 @@
 ---
-title: Systemantics
-subtitle: People-centered design management and enablement systems.
+title: Maybe Systems
+subtitle: TBD
 layout: layouts/base.njk
 ---
 
